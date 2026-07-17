@@ -1,46 +1,166 @@
-# Getting Started with Create React App
+# 📰 ChayaChando
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ChayaChando is a modern news, media, and journalism platform designed to deliver the latest national and international news in a fast, responsive, and user-friendly interface. The platform allows readers to explore trending stories, breaking news, entertainment, sports, technology, politics, and more.
 
-## Available Scripts
+## 🌐 Live Demo
 
-In the project directory, you can run:
+- **Backend API:** https://bd-news-backend.vercel.app/
+- **Admin Panel:** https://chayachando-admin.netlify.app/
+- **Website:** https://chayachando.netlify.app/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ✨ Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 🔐 Secure authentication and authorization
+- 👤 User and Admin roles
+- 📰 Create, update, and delete news articles
+- 📂 Category-based news management
+- 🔍 Search and filter news
+- 📱 Fully responsive design
+- ⚡ Fast and optimized user experience
+- 🖼️ Image gallery and lightbox support
+- 🎞️ Animations and interactive UI
+- 📄 Pagination for news articles
+- 🌍 SEO-friendly structure
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React 18
+- TypeScript
+- React Router DOM
+- Tailwind CSS
+- React Icons
+- Animate.css
+- WOW.js
+- Tiny Slider
+- Owl Carousel
+- React CountUp
+- React Fast Marquee
+- React Modal Video
+- React Image Lightbox
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📦 Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+git clone https://github.com/hzamanshohag/chayachando.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Move into the project directory
 
-## Learn More
+```bash
+cd chayachando
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm start
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── assets/
+│── components/
+│── hooks/
+│── layouts/
+│── pages/
+│── routes/
+│── services/
+│── styles/
+│── utils/
+│── App.tsx
+└── index.tsx
+```
+
+---
+
+## 📜 Available Scripts
+
+```bash
+npm start
+```
+
+Runs the application in development mode.
+
+```bash
+npm run build
+```
+
+Builds the application for production.
+
+```bash
+npm test
+```
+
+Runs the test suite.
+
+---
+
+## 📱 Responsive Design
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+## 🚀 Future Improvements
+
+- Social login
+- Bookmark articles
+- User profiles
+- Comments and reactions
+- Dark mode
+- Push notifications
+- Reading history
+- Newsletter subscription
+
+---
+
+## 👨‍💻 Author
+
+**Md Hasanuzzaman Shohag**
+
+- GitHub: https://github.com/hzamanshohag
+- Portfolio: https://hzaman.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/md-hasanuzzaman-shohag/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
